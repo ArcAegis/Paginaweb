@@ -1,0 +1,597 @@
+html{
+	scroll-behavior: smooth;
+}
+header, section, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: Nanum Myeongjo, Arial;
+
+}
+header {
+	 background-color:#1ad1ff;
+	 height: 80px;
+	 position: sticky;
+	 top: 0px;
+	 z-index: 500;
+
+}
+section{
+	padding-top: 80px;
+}
+h1{
+	font-size: 33px;
+}
+h2 {
+	margin: 0px;
+	text-align: center;
+
+}
+.ajuste_img{
+	width: 100%;
+}
+.txt_blanco {
+	color: #ffffff;
+	font: bold;
+}
+
+.color_celeste{
+	background-color: #b3ffff;
+}
+.margen_inferior {
+	margin-bottom: 10px;
+}
+.ajuste_card1{
+	height: 100px;
+	width: 240px;
+}
+.margen_topp {
+	margin-top: 20px;
+}
+
+#text_logo {
+	width: 250px;
+	height: 70px;
+	float: left;
+	margin-left: 50px;
+	margin-top: 25px;
+	text-align: center;
+	color:#ffff00;
+}
+
+#img_logo{
+	width: 50px;
+	height: px;
+	float: right;
+	margin-top: 17px;
+	margin-left: 1px;
+
+
+}
+#Btn_responsive {
+	display: none;
+}
+
+#botones_principales {
+	width: 425px;
+	height: 70px;
+	float: right;
+	margin-right: 0px;
+	margin-top: 5px;
+
+}
+#botones_principales ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+#botones_principales ul li{
+	display: inline;
+}
+#botones_principales ul li a{
+	display: inline-block;
+	width: 140px;
+	height: 70px;
+	line-height: 70px;
+	color: #000000;
+	text-decoration: none;
+	text-align: center;
+
+}
+#botones_principales ul li a:hover{
+	background-color: #ffff66 ;
+	border-radius: 10px;
+}
+#inicio {
+	height: 550px;
+	background-color: #b3ffff;
+	background-image: url(Imagenes/playa1.jpg);
+	background-size: cover;
+}
+#ejem_1 {
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 120px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 50px;
+
+}
+#ejem_2{
+	width: 295px;
+	height: 270px;
+	background-color: #cc99ff;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 15px;
+	box-sizing: border-box;
+	color: #ffffff;
+	padding: 25px;
+	box-sizing: border-box;
+	border-radius: 50px;
+
+}
+
+
+
+#destinos{
+	height: 790px;
+	background-color: #ccffff;
+	
+}
+#ejem_5{
+	width: 320px;
+	height: 500px;
+	background-color: #d9b3ff;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#ejem_6{
+ 	width: 310px;
+	height: 560px;
+	background-color: #d9b3ff;
+	float: right;
+	margin-right: 5px;
+	margin-top: 140px;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#ejem_7 {
+	width: 590px;
+	height: 150px;
+	background-color: #66ffff;
+	float: left;
+	margin-left: 50px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+#ejem_8{
+	width: 310px;
+	height: 510px;
+	background-color:#d9b3ff;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#localidades{
+	height: 800px;
+	background-color:#004d00;
+}
+
+#ejem_9{
+	
+	height: 380px;
+	background-color:#bbff33;
+	;
+}
+
+#ejem_10{
+	
+	height: 313px;
+	background-color:#40ff00;
+}
+
+#col_1 {
+	background-color:#b3ffff;
+	
+}
+#col_2{
+	background-color:#4db8ff;
+}
+#col_3{
+	background-color: #99ffcc;
+
+}
+#col_4 {
+	background-color: #009999;
+	
+}
+#col_5 {
+	background-color: #1affff;
+	
+}
+#col_6 {
+	background-color: #d24dff;
+}
+#col_7 {
+	background-color:#ff8080;
+}
+#col_8{
+	background-color: #b3b300;
+}
+#text22 {
+	width: 440px;
+	height: 260px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 12px;
+	box-sizing: border-box;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #1a75ff;
+	
+}
+#text21 {
+	width: 200px;
+	height: 300px;
+	float: right;
+	margin-top: 38px;
+	margin-right: 12px;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 10px;
+	background-color: #4dff4d;
+	
+}
+
+footer{
+	height: 120px;
+	background-color: #3366ff;
+}
+
+#contacto{
+	width: 150px;
+	height: 100px;
+	background-color: #00cc44;
+	float: left;
+	margin-left: 25px;
+	margin-top: 10px;
+}
+#links{
+	width: 400px;
+	height: 60px;
+	background-color: #600080;
+	float: right;
+	margin-right: 100px;
+	margin-top: 35px;
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+	
+	header, section, footer {
+		width: 580px;
+		
+	} 
+
+	header {
+		background-color:#1ad1ff;
+		 height: 85px;
+	}
+
+	#text_logo {
+		width: 200px;
+		height: 70px;
+		float: left;
+		margin-left: -20px;
+		margin-top: -10px;
+		text-align: center;
+		color:#ffff00;}
+
+	#img_logo{
+		width: 50px;
+		height: 70px;
+		float: left;
+		margin-top: 15px;
+		margin-left: 1px;}
+
+	#botones_principales {
+		width: 330px;
+		height: 70px;
+		float: right;
+		margin-right: 0px;
+		margin-top: 5px;
+		text-align: center;
+	}
+
+	#botones_principales ul{
+		padding: 0;
+		margin: 0;
+		list-style-type: none;
+	}
+
+	#botones_principales ul li a{
+	display: inline-block;
+	width: 100px;
+	height: 23px;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 25px;}
+
+	#inicio {
+		height: 550px;
+	}
+
+	#ejem_1 {
+		width: 300px;
+		height: 300px;
+		float: left;
+		margin-top: 150px;
+		margin-left: 40px;
+		padding: 20px;
+		box-sizing: border-box;
+		border-radius: 50px;
+
+}
+#ejem_2{
+	width: 190px;
+	height: 350px;
+	background-color: #cc99ff;
+	float: right;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: #ffffff;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 50px;
+
+}
+
+
+
+#destinos{
+	height: 1950px;
+	background-color: #ccffff;
+	
+}
+#ejem_5{
+	width: 500px;
+	height: 510px;
+	background-color: #d9b3ff;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	
+}
+#ejem_6{
+	width: 500px;
+	height: 560px;
+	background-color: #ccff66;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#ejem_7 {
+	width: 540px;
+	height: 150px;
+	float: left;
+	margin-left: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+#ejem_8{
+	width: 500px;
+	height: 540px;
+	background-color:#ffff4d;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	
+}
+#localidades{
+	height: 1300px;
+	background-color:#004d00;
+}
+#ejem_9{
+	
+	height: 900px;
+	background-color:#bbff33;
+	;
+}
+
+#ejem_10{
+	
+	height: 300px;
+	background-color:#40ff00;
+	}
+
+#ejem_11{
+	
+	height: 600px;
+	background-color:#004d00;
+	
+}
+
+} /* fin media 600 a 1023*/
+
+@media all and (max-width: 599px){
+	header, section, footer {
+		width: 100%;
+	} 
+
+	header {
+		height: 80px;
+		position: sticky;
+	}
+	#Btn_responsive {
+		display: block ;
+		width: 30px;
+		height: 30px;
+		float: right;
+		background-color: red;
+		margin-right: 10px;
+		margin-top: 20px;
+	}
+
+	#Btn_responsive a span {
+	font-size: 30px;
+	cursor: pointer;
+	 }
+
+	#text_logo {
+		width: 380px;
+		height: ;
+		float: left;
+		margin-left: -50px;
+		margin-top: 10px;
+		text-align: center;
+		color:#ffff00;}
+
+	#img_logo{
+		width: 50px;
+		height: 70px;
+		float: left;
+		margin-top: 5px;
+		margin-left: -50px;}
+
+	#botones_principales {
+		width: 100%;
+		height: 150px;
+		float: left;
+		margin-right: -20px;
+		margin-top: 0px;
+		text-align: center;
+		background-color: #1ad1ff ;
+	}
+
+
+	#botones_principales ul li a{
+	display: block;
+	width: 250px;
+	height: 23px;
+	line-height: 20px;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 25px;
+	margin-left: 100px;
+
+}
+
+	#inicio {
+		height: 550px;
+
+	}
+
+	#ejem_1 {
+		width: 25px;
+		height: auto;
+		float: none;
+		margin-top: 400px;
+		margin-right: 50px;
+		padding: 20px;
+		box-sizing: border-box;
+		border-radius: 50px;
+	}
+
+	#ejem_2{
+	width: 250px;
+	height: 300px;
+	background-color: #cc99ff;
+	float: none;
+	margin-left: 20px;
+	margin-top: -420px;
+	padding: 0px;
+	box-sizing: border-box;
+	color: #ffffff;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 50px;
+
+}
+
+
+
+#destinos{
+	height: 1990px;
+	background-color: #ccffff;
+	
+}
+#ejem_5{
+	width: 97%;
+	height: auto;
+	background-color: #d9b3ff;
+	float: left;
+	margin-left: 8px;
+	margin-top: 10px;
+	
+}
+#ejem_6{
+	width: 97%;
+	height: 540px;
+	background-color: #ccff66;
+	float: auto;
+	margin-left: 8px;
+	margin-top: 40px;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+}
+#ejem_7 {
+	width: 97%;
+	height: auto;
+	float: auto;
+	margin-left: 8px;
+	margin-top: 15px;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+#ejem_8{
+	width: 97%;
+	height: 550px;
+	background-color:#ffff4d;
+	float: auto;
+	margin-left: 8px;
+	margin-top: 10px;
+	
+}
+#localidades{
+	height: 1700px;
+	background-color:#004d00;
+}
+#ejem_9{
+	
+	height: 1400px;
+	background-color:#bbff33;
+	;
+}
+
+#ejem_10{
+	
+	height: 600px;
+	background-color:#40ff00;
+	}
+
+
+
+
+}

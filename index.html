@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Unidad 12</title>
+
+	<!-- CSS BOOTSTRAP-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<!-- fin de css bootstrap --> 
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet"  href="iconos.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<!-- tipografia google1-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+	<!-- -->
+
+</head>
+<body>
+	<header>
+		<div id="text_logo">
+			<h1>SandKing Travel</h1>
+		</div>
+		<div id="img_logo">
+			<img src="Imagenes/sandcastle.png" class="ajuste_img">
+		</div>
+		<nav id="Btn_responsive">
+			<a onclick="hamburguesa()"><span class="icon-menu"></span></a>
+		</nav>
+		<nav id="botones_principales" style="display: block;" >
+			<ul>
+				<li><a  href="#inicio">Nosotros</a></li><li><a  href="#destinos">Destinos</a></li><li><a  href="#localidades">Servicios</a></li>
+			</ul>
+		</nav>
+		
+
+	</header>
+
+	<section id="inicio">
+
+				<div id="ejem_1">
+					<img src="Imagenes/family.jpg" class="ajuste_img">
+				</div>
+		<div id="ejem_2">
+			<h2>¿Quienes somos?</h2>
+			<p class="txt_blanco">
+				SandKing Travel es una empresa lider encargada de satisfacer la necesidad que tienen las personas por conocer las playas del mundo.
+			</p>
+			<p class="txt_blanco">Cumpliendo asi el sueño de poder tener sus vacaciones soñadas</p>
+		</div>
+		
+	
+	</section>
+
+	<section id="destinos">
+
+		<div id="ejem_7">
+			<h2>Nuestros destinos para vos</h2>
+			<script type="text/javascript">
+				document.write('<p> Hola ' + nameUser+ '! Vemos que '+preguntaV+ ' has viajado antes y que ' +preguntaV2+ ' te gustaria irte a ' +preguntaV3+ 
+					'<p> Ya que eres de '+Pais+ ' te presentaremos estos lugares que podrian interesarte, que estan dentro de nuestro catalogo de viajes' )
+			</script>
+			
+		</div>
+			<a onmouseover="serviciosOver('ejem_6')" onmouseout="serviciosOut('ejem_6')"><div id="ejem_6" >
+			<div id ="imagen1">
+				<img src="Imagenes/playa2.jpg" class="ajuste_img">
+			</div>
+			
+			<div>
+				<p>San Blas (Panamá):</p>
+			<p>
+				 La playa gobernada por los pueblos originarios. El atractivo de San Blas no es sólo la multiplicidad de islas y cayos en donde tirarse a ver pasar la vida desde la hamaca y hacer snorkel, sino la oportunidad de compartir la isla con sus dueños, la comunidad originaria Kuna Yala. El turismo en la isla se encuentra totalmente administrado por las comunidades locales, y es posible además acercarse a la cultura local en los numerosos festivales que tienen lugar a lo largo del año.
+				
+			</p>
+			</div></a> 
+
+		</div>
+
+		<div id="ejem_8">
+			<a onmouseover="serviciosOver('ejem_8')" onmouseout="serviciosOut('ejem_8')">
+				<div><img src="Imagenes/playa3.jpg" class="ajuste_img"></div>
+
+			</a>			
+			<p>Mazatlán: la Perla del PacíficoMazatlán</p>
+			<p>Es una de los destinos de playa más concurrido de México, con un perfil de relax y all inclusive. Se da el lujo de tener un centro histórico muy coqueto además de su Zona Dorada. Además de las interminables playas hay un faro desde el que tomar fotos panorámicas. Hay playas para todos los gustos, desde aquellas ideales para el surf como Playa Olas Altas, hasta Playa Gaviotas, una de las más extensas y tranquilas.</p>
+		</div>	
+		<div id="ejem_5">
+			<a onmouseover="serviciosOver('ejem_5')" onmouseout="serviciosOut('ejem_5')">
+				<img src="Imagenes/playa4.jpg" class="ajuste_img">
+			</a>
+			<p>Baía do Sancho (Brasil)</p>
+			<p>El archipiélago es conocido por la abundancia de fauna marinan (tiene la colonia mas grande de delfines del mundo y cantidad de tortugas marinas y mantarrayas), por lo que es una meca del buceo y el archipiélago entero está declarado patrimonio por la UNESCO. Sus playas tienen una arena fina y dorada, y está rodeada de morros forestados. </p>
+		</div>
+	</section>
+
+	<section id="localidades">
+		<!-- modelos de cajas bootstrap -->
+		<div class= "container-fluid" id="mod_cont">
+			<div class= "row" id="ejem_9">
+				<div class= "col-lg-3 col-md-4" id="col_1">
+					<div class="card margen_topp" style="width: 14rem;">
+  <img src="Imagenes/avion.jpg" class="card-img-top ajuste_img" alt="...">
+  <div class="card-body color_celeste">
+    <p class="card-text">Toca para mas informacion sobre metodos de pago y promociones</p>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  ¡Click aqui!
+</button>
+  </div>
+</div>
+				</div>
+				<div class= "col-lg-3 col-md-4" id="col_2">
+					<p id="text21">
+						¡Ya falta poco para que puedas disfrutar de tus vacaciones soñadas!.
+
+						Solo debes completar los siguientes datos para que podamos asesorarte via email, y asi, poder planificar tu viaje hacia donde mas te guste.
+					</p>
+				</div>
+				<div class= "col-lg-6 col-md-4" id="col_3">
+					<form class="row g-3 needs-validation" novalidate>
+  <div class="col-md-4">
+    <input type="text" class="form-control margen_inferior margen_topp" id="validationCustom01" placeholder="Nombre" required>
+    <div class="valid-feedback">
+     
+    </div>
+  </div>
+  <div class="col-md-4">
+    <input type="text" class="form-control margen_inferior margen_topp" id="validationCustom02" placeholder="Apellido" required>
+    <div class="valid-feedback">
+     
+    </div>
+  </div>
+  <div class="col-md-4">
+    
+    <div class="input-group has-validation">
+      <span class="input-group-text margen_inferior margen_topp" id="inputGroupPrepend">@</span>
+      <input type="text" class="form-control margen_inferior margen_topp" id="validationCustomUsername" aria-describedby="inputGroupPrepend" placeholder="Correo Electronico" required>
+      <div class="invalid-feedback"></div>
+    </div>
+  
+  </div>
+   <div>
+   	<label for="validationCustom05" class="form-label">¡Envianos un mensaje!</label>
+   	<textarea class="form-control" id="validationCustom02" placeholder="Cuentanos que experiencias te gustarian vivir para tus vacaciones.
+Esto es importante para darte un plan de servicio acorde a tus necesidades." rows="5" required></textarea>
+   	<div class="invalid-feedback"></div>
+   </div>
+
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      <label class="form-check-label" for="invalidCheck">
+       Acepte los terminos y condiciones
+      </label>
+      <div class="invalid-feedback">
+      </div>
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Enviar</button>
+  </div>
+</form>
+				</div>
+			</div>
+			<div class="row" id="ejem_10">
+				<div class="col-xl-6 col-sm-6" id="col_4">
+						<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Imagenes/hotel1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Imagenes/hotel2.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+</div>
+				</div>
+				<div class="col-xl-6 col-sm-6" id="col_5">
+					<div class="carousel slide" id="galeria" data-bs-ride="carousel" >
+						 <div class="carousel-inner ">
+						<div class="carousel-item active" id="text22">
+							<p> Con vista a las playas bordeadas de palmeras del mar Caribe, Hilton Playa del Carmen, An All Inclusive Resort, le ofrece una escapada elegante en un resort galardonado con el premio Four Diamond otorgado por la AAA (Asociación Americana del Automóvil). Disfrute de un alojamiento de solo suites, un sinfín de opciones de alimentos y bebidas, y una amplia variedad de servicios y comodidades, ideales para parejas, viajes de incentivo y fiestas de boda. A pasos de la famosa Quinta Avenida, nuestro resort le permite descubrir lo mejor de la Riviera Maya.</p>
+						</div>
+						<div class="carousel-item" >
+						<p id="text22">	Disfruta en un paraíso solo para adultos en la idílica Riviera Maya, a pasos de una playa maravillosa, fantásticas tiendas en Quinta Avenida y una animada vida nocturna. A solo 55 kilómetros del Aeropuerto Internacional de Cancún (CUN), Wyndham Alltra Playa del Carmen, un hotel solo para adultos con todo incluido, ofrece las mejores vacaciones sin preocupaciones con restaurantes gourmet ilimitados y cocteles creativos, un gimnasio de última generación, y actividades diarias como yoga frente a la playa, aeróbicos en el agua y entretenimiento nocturno.</p>
+						</div>
+					</div>
+						
+					</div>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+	
+		
+		
+		<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Informacion</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>SandKingTravel es una empresa que se maneja con multiples bancos internacionales y nacionales referentes de cada region.</p>
+        <p>
+        	Los metodos de pago varian segun cada banco, las promociones son exclusivas cuando se abona el 50% en efectivo.
+        	Entre estas promociones pueden incluirse:
+        </p>
+        <p>5 y 5 noches gratis.</p>
+        <p>Descuento en tiendas de la region visitada.</p>
+        <p>Sorteos exclusivos de autos 0km.</p>
+        <p>Para mas informacion comuniquese con el centro de atencion al cliente</p>
+
+
+        
+      </div>
+      <div class="modal-footer">
+        
+        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+		
+		
+		<!-- fin  modelos de cajas bootstrap -->
+	</section>
+
+
+<script src="js/script2.js"></script>
+<!-- JS BOOTSTRAP-->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<!-- FIN JS BOOTSTRAP-->
+	<script type="text/javascript">
+		// Example starter JavaScript for disabling form submissions if there are invalid fields
+		(function () {
+		  'use strict'
+
+		  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+		  var forms = document.querySelectorAll('.needs-validation')
+
+		  // Loop over them and prevent submission
+		  Array.prototype.slice.call(forms)
+		    .forEach(function (form) {
+		      form.addEventListener('submit', function (event) {
+		        if (!form.checkValidity()) {
+		          event.preventDefault()
+		          event.stopPropagation()
+		        }
+
+		        form.classList.add('was-validated')
+		      }, false)
+		    })
+		})()
+	</script>
+
+</body>
+</html>
